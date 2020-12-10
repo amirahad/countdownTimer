@@ -38,6 +38,23 @@ h1{
     text-transform: uppercase;
     color: beige;
 }
+.click{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.click:hover{
+    color: black;
+    background-color: beige;
+    width: 120px;
+    
+    font-size: medium;
+    border: 1px dotted black;
+}
 @media(max-width:767px){
     h1{
         font-size: 30px;
